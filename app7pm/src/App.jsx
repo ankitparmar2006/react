@@ -1,25 +1,26 @@
-import Empdata from "./employeedata";
-import Empdesign from "./employeedegisne";
-const App=()=>{
-  const ans=Empdata.map((key)=> <Empdesign
 
-nm={key.name}
-id={key.id}
-ct={key.city}
-sal={key.salary} />
-);
+
+import images1 from "./image/img1.webp"
+import images2 from "./image/img2.webp"
+import images3 from "./image/img3.webp"
+
+
+const App=()=>{
+
 return(
 <>
-<h1>welcome</h1>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Id</th>
-    <th>City</th>
-    <th>Salary</th>
-  </tr>
-  {ans}
-</table>
+<h1 className="data1">Hello cybrom</h1>
+
+<h3 className="data2">Hello cybrom</h3>
+
+<h5 className="data3">Hello cybrom</h5>
+
+<img  src={images1} />
+<img  src={images2} />
+<img  src={images3} />
+
+<img src="public/images/img1.webp" alt="" />
+
 </>
 )
 }

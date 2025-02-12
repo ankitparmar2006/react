@@ -1,6 +1,6 @@
 const Empdata=[
     {
-        "name":"shubhi",
+        "name":"ankit",
         "id":123,
         "city":"bhopal",
         "salary":34500,
