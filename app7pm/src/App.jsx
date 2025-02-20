@@ -1,28 +1,32 @@
-
-
-import images1 from "./image/img1.webp"
-import images2 from "./image/img2.webp"
-import images3 from "./image/img3.webp"
+import { BrowserRouter,Routes ,Route } from "react-router-dom";
+import Layout from "./Laylout";
+import Home from "./pages/home";
+import Display from "./pages/display";
+import Insert from "./pages/insert";
 
 
 const App=()=>{
 
-return(
-<>
-<h1 className="data1">Hello cybrom</h1>
 
-<h3 className="data2">Hello cybrom</h3>
 
-<h5 className="data3">Hello cybrom</h5>
+  return( 
+    <>
 
-<img  src={images1} />
-<img  src={images2} />
-<img  src={images3} />
+<BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout/>}>
+      <Route index element={<Home/>} />
+      <Route path="home" element={<Home/>} />
+      <Route path="display" element={<Display/>} />
+      <Route path="insert" element={<Insert/>} />
 
-<img src="public/images/img1.webp" alt="" />
-
-</>
-)
+       
+    </Route>
+    </Routes>
+    
+    </BrowserRouter>
+   
+    </>
+  )
 }
-
 export default App;
