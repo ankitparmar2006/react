@@ -1,49 +1,39 @@
 {
-  "student": [
+  "students": [
     {
-      "id ": 1,
+      "id": "1",
       "rollno": 121,
-      "name": "ankit",
+      "name": "sahil",
       "city": "bhopal",
-      "fees": 2000,
-      "id": "1af3"
+      "fees": 20000
     },
     {
-      "id ": 2,
+      "id": "2",
       "rollno": 122,
-      "name": "vikash",
-      "city": "indore",
-      "fees": 3000,
-      "id": "8672"
+      "name": "sahu",
+      "city": "rewa",
+      "fees": 30000
     },
     {
-      "id ": 3,
-      "rollno": 124,
-      "name": "umesh",
-      "city": "mp",
-      "fees": 8000,
-      "id": "9fcd"
+      "id": "3",
+      "rollno": 123,
+      "name": "vishal",
+      "city": "satann",
+      "fees": 40000
     },
     {
-      "id": "8781",
-      "rollno": "u",
-      "name": "u",
-      "city": "u",
-      "fees": "j"
+      "id": "3e5e",
+      "empno": "sahil",
+      "degignation": "cdc",
+      "city": "sdcdsc",
+      "fees": "123"
     },
     {
-      "id": "9b83",
-      "rollno": "u",
-      "name": "u",
-      "city": "u",
-      "fees": "j"
-    },
-    {
-      "id": "f847",
-      "rollno": "sahil",
-      "name": "225",
-      "city": "bhihar",
-      "fees": "783993"
+      "id": "9c4f",
+      "empno": "jf",
+      "degignation": "asjauja",
+      "fees": "hh",
+      "city": "uj"
     }
   ]
 }
